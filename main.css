@@ -65,7 +65,7 @@ h1{
 }
 
 h2{
-    font-size:42px;
+    font-size:28px;
     line-height:1.2em;
     padding:20px 0;
     font-family:"ArgentCF-Thin";font-weight:100
@@ -128,19 +128,20 @@ ul{
 
 .container .large
 {
-    max-width:1300px;
+    max-width:760px;
     box-sizing:border-box;
     margin:auto
 }
 
 .container .small{
-    margin:auto;
+    margin: auto;
     max-width:760px;
     box-sizing:border-box
 }
 
 .column{
-    box-sizing:border-box
+    box-sizing: border-box;
+    
 }
 
 .column .full{
@@ -148,8 +149,8 @@ ul{
 }
 
 .column .left{
-    vertical-align:top;
-    width:49%;
+    vertical-align: top;
+    width: 50%;
     display:inline-block;
     padding-right:30px;
     box-sizing:border-box
@@ -157,7 +158,7 @@ ul{
 
 .column .right{
     vertical-align:top;
-    width:50%;
+    width:49%;
     display:inline-block;
     padding-left:30px;
     box-sizing:border-box
@@ -197,7 +198,7 @@ ul{
 
 #homepage .label{
     color:#134db6;
-    font-size:0.75em;
+    font-size:1.5em;
     letter-spacing:0.2em;
     text-transform:uppercase;
     font-family:"avenir-heavy"
@@ -800,10 +801,6 @@ video{
     }
 }
 
-
-
-
- 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css);
 @import url(https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css);
 .sunset-container{
@@ -880,3 +877,86 @@ video{
 .social-menu ul li:nth-child(4) a:hover{
     background-color: #BB001B;
 }
+
+.progress-style {
+    width: 300px;
+  }
+  @media (max-width: 412px) {
+    .progress-style {
+      width: 200px;
+    }
+  }
+
+  .tech-icon{
+    height:72px;
+  }
+  
+  .wrap {
+    padding: 0;
+  }
+
+  @media (max-width: 767.98px) {
+    .wrap {
+      margin-top: 30px;
+    }
+  }
+  @media (min-width: 768px) {
+    .wrap .about-desc {
+      position: relative;
+    }
+  }
+  .wrap .about-desc .bold-text {
+    position: absolute;
+    top: -80px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    font-weight: 700 !important;
+    color: rgba(0, 0, 0, 0.08);
+    text-transform: uppercase;
+  }
+  @media (min-width: 992px) {
+    .wrap .about-desc .bold-text {
+      font-size: 6em;
+    }
+  }
+  @media (max-width: 991px) {
+    .wrap .about-desc .bold-text {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 412px) {
+    .progress-style {
+      width: 300px;
+    }
+  }
+  .interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+  }
+  
+  .interests .icon-box i {
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .interests .icon-box h3 {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5rem;
+
+    line-height: 1;
+    font-size: 20px;
+    color: #111;
+  }
+  
+  .interests .icon-box:hover {
+    background: rgba(122, 122, 122, 0.12);
+  }
+  
