@@ -225,8 +225,8 @@ const Header = props => {
           </SocialLink>
 
           <SocialLink
-          href=""
-          target=""
+          href="https://github.com/SubhasmitaSw"
+          target="_blank"
           onMouseOver={() => showTooltip('Github')}
           onFocus={() => showTooltip('Github')}
           onMouseLeave={hideTooltip}
