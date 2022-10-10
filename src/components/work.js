@@ -22,7 +22,7 @@ const Work = () => {
         <Fragment>
           <Project
             logo={<Project1Logo />}
-            title="Optimizing Camel-K Inetgration Build Time"
+            title="Optimizing Camel-K Integration Build Time"
             abstract="Scaling the Camel K operator vertically to improve the integration build time."
             link={Project1Link}
           />
