@@ -1,6 +1,6 @@
 'use strict';
 
-var Jimp = require('jimp');
+var Jimp = require('jimp-compact');
 var Bitmap = require('./types/Bitmap');
 var Curve = require('./types/Curve');
 var Point = require('./types/Point');

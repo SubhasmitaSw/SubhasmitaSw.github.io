@@ -3,7 +3,7 @@
 // Histogram
 
 var utils = require('../utils');
-var Jimp = null; try { Jimp = require('jimp'); } catch(e) {}
+var Jimp = null; try { Jimp = require('jimp-compact'); } catch(e) {}
 var Bitmap = require('./Bitmap');
 
 var COLOR_DEPTH = 256;

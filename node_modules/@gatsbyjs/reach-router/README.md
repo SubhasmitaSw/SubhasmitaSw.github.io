@@ -1,4 +1,4 @@
-<h1 align="center">THIS IS A FORK TO BE COMPATIBLE WITH REACT 17</h1>
+<h1 align="center">THIS IS A FORK TO BE COMPATIBLE WITH REACT 17 & 18</h1>
 
 <p align="center">
   <a href="https://reach.tech/router/">

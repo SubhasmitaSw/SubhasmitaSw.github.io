@@ -176,7 +176,7 @@ Configuration object is extended with following properties:
 
 ## License
 
-The GNU General Public License version 2 (GPLv2). Please see [License File](LICENSE) for more information.
+The GNU General Public License version 3 (GPLv3). Please see [License File](LICENSE) for more information.
 
 [potrace]: http://potrace.sourceforge.net/
 [potrace-algorithm]: http://potrace.sourceforge.net/potrace.pdf
