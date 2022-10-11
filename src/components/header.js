@@ -179,7 +179,7 @@ const Header = props => {
         <SocialLinks article={props.article}>
 
         <SocialLink
-          href="https://drive.google.com/file/d/1BOmotNgnZ33eZ4li3tcNFOKDbMfq600l/view?usp=sharing"
+          href="https://drive.google.com/file/d/18w_NhEOIfJhvIvr6J_qEiAuAH0AfoZNg/view?usp=sharing"
           target="_blank"
           onMouseOver={() => showTooltip('Resume')}
           onFocus={() => showTooltip('Resume')}
