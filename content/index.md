@@ -1,4 +1,4 @@
-
+<!-- 
 <div id="typewriter">
   <p id="intro-text"></p>
 </div>
@@ -64,4 +64,4 @@
       border-color: white; /* Adjust cursor color as needed */
     }
   }
-</style>
+</style> -->
