@@ -1,1 +1,0 @@
-(self.webpackChunkgatsby_portfolio=self.webpackChunkgatsby_portfolio||[]).push([[979],{5888:function(){}}]);
