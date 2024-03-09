@@ -98,7 +98,7 @@ defaultFeaturedImage = "img/background.jpeg" # used as default for featured imag
 
 
 [firebase]
-  # apiKey = "XXXXXX"
+  #apiKey = "XXXXXX"
   # authDomain = "XXXXXX"
   # projectId = "XXXXXX"
   # storageBucket = "XXXXXX"
@@ -111,11 +111,11 @@ defaultFeaturedImage = "img/background.jpeg" # used as default for featured imag
   # domain = "llama.yoursite.com"
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+   identifier = ""
+   globalWidget = true
+   globalWidgetMessage = "Howdy 👋 If you like what I do, please consider buying me a coffee!"
+   globalWidgetColor = "#FFDD00"
+   globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
