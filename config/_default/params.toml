@@ -19,14 +19,14 @@ disableImageOptimization = false
 disableTextInHeader = false
 
 defaultBackgroundImage = "img/bg.jpeg" # used as default for background images 
-defaultFeaturedImage = "img/background.jpeg" # used as default for featured images in all articles
+#defaultFeaturedImage = "img/background.jpeg" # used as default for featured images in all articles
 
  highlightCurrentMenuArea = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
