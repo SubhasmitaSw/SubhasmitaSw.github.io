@@ -1,3 +1,7 @@
+---
+title: "Home"
+---
+
 <div id="typewriter">
   <p id="intro-text"></p>
 </div>
