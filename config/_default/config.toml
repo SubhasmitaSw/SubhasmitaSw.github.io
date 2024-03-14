@@ -63,3 +63,6 @@ buildFuture = false
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[build]
+  timeout = "60s"
