@@ -13,6 +13,11 @@ node_modules
 public
 resources
 
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
 
 # Ignore the firebase-hosting directory
 firebase-hosting
