@@ -11,7 +11,7 @@ node_modules
 
 # Hugo
 public
-themes/*
+
 
 # Ignore the firebase-hosting directory
 firebase-hosting
