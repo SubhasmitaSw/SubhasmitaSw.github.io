@@ -11,4 +11,3 @@ title: "custom frontpage"
 >}}
 striving to craft byte-sized brilliance with grace and grit.
 {{< /typeit >}}
-
