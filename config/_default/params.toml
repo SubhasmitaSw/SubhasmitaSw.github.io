@@ -18,7 +18,7 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "img/691E609B-224A-4844-8432-6871EE532D18.jpeg" # used as default for background images 
+defaultBackgroundImage = "img/sleep.gif" # used as default for background images 
 #defaultFeaturedImage = "img/featured.jpeg" # used as default for featured images in all articles
 
  highlightCurrentMenuArea = true
@@ -37,7 +37,8 @@ defaultBackgroundImage = "img/691E609B-224A-4844-8432-6871EE532D18.jpeg" # used 
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/B55A746A-F193-40A0-A396-C457842C9DE8.jpeg" # used in: hero, and card
+  #homepageImage = "img/B55A746A-F193-40A0-A396-C457842C9DE8.jpeg" # used in: hero, and card
+  homepageImage = "img/gram-cat.gif"
   showRecent = true
   showRecentItems = 12
   showMoreLink = true
@@ -80,7 +81,7 @@ defaultBackgroundImage = "img/691E609B-224A-4844-8432-6871EE532D18.jpeg" # used 
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showSummary = true
   #showViews = true
