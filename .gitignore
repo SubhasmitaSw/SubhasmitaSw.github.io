@@ -15,3 +15,5 @@ public
 
 # Ignore the firebase-hosting directory
 firebase-hosting
+.firebase
+firebase.json
