@@ -9,6 +9,7 @@ name: Deploy to Firebase Hosting on merge
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 2
     steps:
       - name: Hugo Setup
         uses: peaceiris/actions-hugo@v2

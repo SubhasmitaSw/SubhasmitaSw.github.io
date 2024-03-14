@@ -7,6 +7,7 @@ jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
+    timeout-minutes: 2
     steps:
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.6.0
