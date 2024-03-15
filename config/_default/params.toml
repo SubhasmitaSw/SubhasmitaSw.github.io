@@ -18,7 +18,7 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "img/9vi6.gif" # used as default for background images 
+#defaultBackgroundImage = "img/9vi6.gif" # used as default for background images 
 #defaultFeaturedImage = "img/featured.jpeg" # used as default for featured images in all articles
 
  highlightCurrentMenuArea = true
