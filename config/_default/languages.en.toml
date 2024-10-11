@@ -1,7 +1,8 @@
+disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Subhasmita Swain"
+title = "Home"
 
 
 [params]
@@ -9,22 +10,24 @@ title = "Subhasmita Swain"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  # logo = "img/car.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "Copy, _right?_ 🤔"
 
- [author]
-   name = "subhasmita"
+ [params.author]
+   name = "Hi 👋 I'm Subhasmita"
+  #  email = "subhasmitaofc@gmail.com"
    image = "img/prof.jpeg"
+  #  imageQuality = 96
    headline = "R&D Engineer [@Civo](https://www.civo.com/)"
-   bio = "I write about application development, tooling, and best practices."
+  #  bio = "I write about application development, tooling, and best practices."
 
    links = [
       { x-twitter = "https://x.com/iam_subhasmita" },
       { linkedin = "https://www.linkedin.com/in/subhasmita-swain/" },
       { github = "https://github.com/SubhasmitaSw"},
       { medium = "https://medium.com/@SubhasmitaSw" },
-      { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-      { email = "mailto:subhasmitaswain232@gmail.com" },
+      # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+      { email = "mailto:subhasmitaofc@gmail.com" },
    ]
