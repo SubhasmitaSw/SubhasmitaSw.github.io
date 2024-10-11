@@ -3,7 +3,7 @@ title: Talks
 draft: false
 ---
 
-I actively engage in developer meetups, conferences, and workshops, absorbing insights and expertise. Occasionally, I take the stage to speak on topics close to my heart, sharing insights and igniting discussions. This page lists some of my public speaking engagements.
+I love being part of developer meetups, conferences, and workshops, where I get to learn from others and share ideas. Every now and then, I step up to speak about topics I'm passionate about, sparking conversations and sharing my own experiences. Here, you’ll find a list of some of my public speaking events.
 
 <table>
     <tr>
@@ -11,6 +11,12 @@ I actively engage in developer meetups, conferences, and workshops, absorbing in
         <th>Event</th>
         <th>Date</th>
         <th>Ref</th>
+    </tr>
+    <tr>
+        <td>Automated Model Retraining with GitHub Actions</td>
+        <td>GitTogether 2024</td>
+        <td>Sep 2024</td>
+        <td><a href="https://docs.google.com/presentation/d/1KInBc3qwQfv23JkWsj10zW3ZVVzGag0MVe5R3O_oOOE/edit#slide=id.gd9c453428_0_16">🔗</a></td>
     </tr>
     <tr>
         <td>How I Met Your Software – an Image’s Sitcom of Consuming and Securing Software in Cloud Native!</td>

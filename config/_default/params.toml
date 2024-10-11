@@ -5,9 +5,9 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "avocado"
+colorScheme = "marvel"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = false
@@ -22,8 +22,11 @@ disableTextInHeader = false
 #defaultFeaturedImage = "img/featured.jpeg" # used as default for featured images in all articles
 
  highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+#  smartTOC = true
+#  smartTOCHideUnfocusedChildren = true
+
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
@@ -36,13 +39,13 @@ disableTextInHeader = false
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/gram-cat.gif"
+  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "img/gram-cat.gif"
   showRecent = true
-  showRecentItems = 9
+  showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/blogs"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
@@ -54,11 +57,11 @@ disableTextInHeader = false
   showDateUpdated = false
   showAuthor = true
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
-  showDraftLabel = true
+  showDraftLabel = false
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
@@ -66,13 +69,13 @@ disableTextInHeader = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
+  showReadingTime = false
+  showTableOfContents = false
   showRelatedContent = true
   relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
-  showWordCount = true
+  showWordCount = false
   sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = true
 
@@ -81,11 +84,11 @@ disableTextInHeader = false
   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = true
+  showBreadcrumbs = false
   showSummary = true
-  #showViews = true
-  #showLikes = true
-  showTableOfContents = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
   showCards = false
   groupByYear = true
   cardView = false

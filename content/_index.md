@@ -1,8 +1,8 @@
 ---
-title: "custom frontpage"
+title: "Subhasmita"
 ---
 
-{{< typeit
+<!-- {{< typeit
   tag=h4
   bold=true
   lifeLike=false
@@ -10,4 +10,4 @@ title: "custom frontpage"
   loop=false
 >}}
 striving to craft byte-sized brilliance with grace and grit.
-{{< /typeit >}}
+{{< /typeit >}} -->

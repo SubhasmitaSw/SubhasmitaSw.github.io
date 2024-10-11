@@ -12,9 +12,15 @@
 
 
 [[main]]
+  name = "About"
+  identifier = "experiences"
+  pageRef = "experiences"
+  weight = 10
+
+[[main]]
   name = "Blog"
   pageRef = "blogs"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Talks"
@@ -22,17 +28,12 @@
   pageRef = "talks"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  identifier = "projects"
-  pageRef = "projects"
-  weight = 20
+# [[main]]
+#   name = "Projects"
+#   identifier = "projects"
+#   pageRef = "projects"
+#   weight = 20
 
-[[main]]
-  name = "About"
-  identifier = "experiences"
-  pageRef = "experiences"
-  weight = 20
 
 [[main]]
   name = "List 100"

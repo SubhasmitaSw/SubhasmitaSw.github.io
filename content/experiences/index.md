@@ -1,12 +1,12 @@
 ---
-title: Experiences
+title: About Me
 ---
 
-## About me
+I’m really glad you stopped by my website! Here are a few of the roles I’m currently taking on, along with some projects I’m especially proud of. Lately, I’ve been diving into MLOps and pipeline management for machine learning—an area I believe can really help organizations by ensuring they deliver effective ML solutions without causing chaos. I also work with cloud infrastructure and DevOps, and I’m a big fan of the serverless approach.
 
-Hi, I'm Subhasmita. I'm glad you are visiting my website, below listed are a couple of my current positions of responsibility and some of my activities I am proud of. Lately I've been interested in MLOps and pipeline management for machine learning, which I believe has a lot of value for organizations in terms of actually delivering ML solutions and ensuring they don't set everything on fire. I also work with cloud infrastructure and devops, and I'm a huge admirer of the serverless approach.
+I’m best reached via [email](mailto:subhasmitaofc@gmail.com). I’m always open to interesting conversations and collaboration.
 
-I’m best reached via [email](mailto:subhasmitaswain232@gmail.com). I’m always open to interesting conversations and collaboration.
+To know about my projects, refer to my [Github profile](https://github.com/SubhasmitaSw). 😊
 
 ## Experience 🚀
 
