@@ -1,6 +1,7 @@
 ---
 title: Talks
 draft: false
+date: 2024-10-11
 ---
 
 I love being part of developer meetups, conferences, and workshops, where I get to learn from others and share ideas. Every now and then, I step up to speak about topics I'm passionate about, sparking conversations and sharing my own experiences. Here, you’ll find a list of some of my public speaking events.
