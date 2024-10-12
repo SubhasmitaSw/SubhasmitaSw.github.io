@@ -50,12 +50,12 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-  showDate = false
+  showDate = true
   #showViews = true
   #showLikes = true
   showComments = true
   showDateOnlyInArticle = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showHero = true
   heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground

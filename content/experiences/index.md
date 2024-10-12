@@ -1,5 +1,6 @@
 ---
 title: About Me
+date: 2024-01-10
 ---
 
 I’m really glad you stopped by my website! Here are a few of the roles I’m currently taking on, along with some projects I’m especially proud of. Lately, I’ve been diving into MLOps and pipeline management for machine learning—an area I believe can really help organizations by ensuring they deliver effective ML solutions without causing chaos. I also work with cloud infrastructure and DevOps, and I’m a big fan of the serverless approach.
