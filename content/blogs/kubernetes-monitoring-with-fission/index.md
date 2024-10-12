@@ -39,7 +39,7 @@ We'll use Civo Cloud for this demonstration, though the principles apply to any 
 ```shell
 civo k3s create <cluster-name> --size=g4s.kube.small --nodes=2
 ```
-![](image.png)
+<!-- ![](image.png) -->
 
 For local testing, Minikube is a viable alternative:
 
