@@ -21,8 +21,8 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-# defaultBackgroundImage = "/img/background.svg"
-# defaultFeaturedImage = "/img/featured.svg"
+# defaultBackgroundImage = "/img/bg.png"
+# defaultFeaturedImage = "/img/bg.png"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -85,7 +85,7 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundBlur = true # only used when heroStyle equals background
   layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
-  showSummary = true
+  showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = true
