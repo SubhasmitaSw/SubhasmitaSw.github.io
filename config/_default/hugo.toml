@@ -2,22 +2,26 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-# theme = "avacado"
-baseURL = "https://subhasmita.in/"
+# theme = "blowfish"
+baseURL = "https://subhasmita.in"
 defaultContentLanguage = "en"
+disableLanguages = [] #to allow translation work requiring shipping to production
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-pagination.pagerSize = 10
-summaryLength = 0
+summaryLength = 30
+hasCJKLanguage = true
 
-buildDrafts = true
+buildDrafts = false
 buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-PEDMYR1V0K"
+
+[pagination]
+  pagerSize = 100
 
 [imaging]
   anchor = 'Center'
@@ -29,7 +33,7 @@ enableEmoji = true
   series = "series"
 
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
 
