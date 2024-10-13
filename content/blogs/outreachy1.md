@@ -6,6 +6,6 @@ summary: ”Everything happens for a reason and at the right time”
 externalUrl: "https://medium.com/@SubhasmitaSw/a-glance-inside-the-beginnings-of-my-outreachy-internship-f2395aa37dba"
 showReadingTime: false
 _build:
-  render: "true"
+  render: "false"
   list: "local"
 ---

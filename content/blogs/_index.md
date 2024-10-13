@@ -1,9 +1,9 @@
 ---
 title: "Recent Articles"
 description: "Archive of my learnings and experiences"
-showDate: false
-showAuthor: false
-invertPagination: true
+showDate: true
+showAuthor: true
+invertPagination: false
 draft: false
 ---
 
