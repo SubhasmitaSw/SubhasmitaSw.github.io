@@ -1,61 +1,23 @@
 ---
 title: About Me
 date: 2024-01-10
+layout: "simple"
 ---
+<p>
+I'm really glad you stopped by my website! Here are a few of the roles I'm currently taking on, along with some projects I'm especially proud of. Lately, I've been diving into MLOps and pipeline management for machine learning—an area I believe can really help organizations by ensuring they deliver effective ML solutions without causing chaos. I also work with cloud infrastructure and DevOps, and I'm a big fan of the serverless approach.
+</p>
 
-I’m really glad you stopped by my website! Here are a few of the roles I’m currently taking on, along with some projects I’m especially proud of. Lately, I’ve been diving into MLOps and pipeline management for machine learning—an area I believe can really help organizations by ensuring they deliver effective ML solutions without causing chaos. I also work with cloud infrastructure and DevOps, and I’m a big fan of the serverless approach.
+<img src="k3.jpg" alt="me" width="450" style="float: center; margin-left: 175px;">
 
 I’m best reached via [email](mailto:subhasmitaofc@gmail.com). I’m always open to interesting conversations and collaboration.
 
 To know about my projects, refer to my [Github profile](https://github.com/SubhasmitaSw). 😊
 
-## Experience 🚀
+## Work Experiences
 
-{{< timeline >}}
+Not a great believer in repeating stuff. If you want to know more about my previous works, you can head over to [LinkedIn](https://linkedin.com/in/subhasmita-swain).
 
-{{< timelineItem icon="star" header="R&D Engineer" badge="Sep 2022-present" subheader="Civo" >}}
-<ul>
-
-</ul>
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Outreachy" badge="2022" subheader="Apache Camel-K" >}}
-<ul>
-
-</ul>
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="CNCF Mentee - The Linux Foundation" badge="2022" subheader="Kubernetes" >}}
-<ul>
-
-</ul>
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Machine Learning Intern" badge="2021" subheader="Infowiz Technologies" >}}
-<ul>
-
-</ul>
-{{< /timelineItem >}}
-
-{{< timelineItem icon="star" header="Student Developer" badge="2021" subheader="Winter of Code (WoC)" >}}
-<ul>
-
-</ul>
-{{< /timelineItem >}}
-
-{{< /timeline >}}
-
-## Education 👩‍🎓
-
-{{< timeline >}}
-
-{{< timelineItem icon="github" header="Bachelor Of Technology in Computer Science and Engineering (spec. AI & ML)" badge="2018-2022" subheader="GPA: 8.9" >}}
-<b>Relevant Coursework</b>: <i>Data Structures, Design & Analysis Of Algorithms, Operating Systems, Networking, Databases, Computer Architecture, Artificial Intelligence, Machine Learning, Computer Vision.</i>
-{{</ timelineItem >}}
-
-{{</ timeline >}}
-
-## Co-authored Publications 🔖
+<!-- ## Co-authored Publications 🔖
 
 {{< timeline >}}
 <ul>
@@ -66,20 +28,15 @@ To know about my projects, refer to my [Github profile](https://github.com/Subha
 
 <li>Bhushan B.,Swain S., et al. Cervical Spine Fracture Detection using 2.5D BLSTM and EfficientNet V2 Classification (To be published).</li>
 </ul>
-{{</ timeline >}}
+{{</ timeline >}} -->
 
 ## Leadership & Community 🌟
 
-{{< timeline >}}
-<ul>
+- Kubernetes v1.30, v1.26 [Release Team](https://github.com/kubernetes/sig-release/tree/master/release-team), part of a select small team that releases a new version of Kubernetes. Additionally, play a significant role in Kubernetes activities, focusing on CI Signal Health Monitoring and Bug Triage.
 
-<li>Kubernetes v1.30, v1.26 Release Team, part of a select small team that releases a new version of Kubernetes. Additionally, play a significant role in Kubernetes activities, focusing on CI Signal Health Monitoring and Bug Triage.
-<li>Cluster API 1.7 Release Lead Shadow, member of the select team that publishes each new Cluster API version. In the capacity of a shadow, I write release documentation and keep an eye on the stability of the CI pipeline.
-<li>Linux Foundation Scholarship Recipient, sponsored to attend Kubecon + CloudNativeCon 2022.
-<li>Open Source Community Lead at Developer Student Clubs Sharda University, Conducted online
+- [Cluster API](https://github.com/kubernetes-sigs/cluster-api) 1.7 Release Lead Shadow, member of the select team that publishes each new Cluster API version. In the capacity of a shadow, I write release documentation and keep an eye on the stability of the CI pipeline.
+- [Linux Foundation Scholarship](https://training.linuxfoundation.org/about/scholarships/) Recipient, sponsored to attend Kubecon + CloudNativeCon 2022.
+- Open Source Community Lead at Developer Student Clubs Sharda University, Conducted online
 and offline technical and soft-skills training impacting over 500 students.
-<li>ICAAAIML Coordinator, Coordinated the ICAAAIML (International Conference on Advances and Appli- cation in Artificial Intelligence and Machine Learning) events, fostering academic collaboration and knowledge exchange among leading experts in the field, while contributing to the university’s academic community.
-<li>Biju Sashaktikaran Yojna Scholarship Recipient, Prestigious scholarship provided for exceptional perfor- mance in the higher-secondary (HS) examination.
-
-</ul>
-{{</ timeline>}}
+- [ICAAAIML](https://www.sharda.ac.in/connect/news-details/icaaaiml-2022-international-conference-on-advances-and-applications-of-artificial-intelligence-machine-learning/) Coordinator, Coordinated the ICAAAIML (International Conference on Advances and Appli- cation in Artificial Intelligence and Machine Learning) events, fostering academic collaboration and knowledge exchange among leading experts in the field, while contributing to the university’s academic community.
+- Biju Sashaktikaran Yojna Scholarship Recipient, Prestigious scholarship provided for exceptional performance in the higher-secondary (HS) examination.

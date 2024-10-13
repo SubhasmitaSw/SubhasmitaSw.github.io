@@ -6,4 +6,8 @@ summary: "This article provides a workaround for issues causing pull requests to
 externalUrl: "https://www.kubernetes.dev/blog/2022/03/15/k8s-triage-bot-helper-ci-job/"
 
 tags: ["Open Source", "Kubernetes", "CI/CD"]
+
+_build:
+    render: "false"
+    list: "local"
 ---

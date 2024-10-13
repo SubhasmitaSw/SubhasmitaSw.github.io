@@ -6,7 +6,7 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "marvel"
-defaultAppearance = "light" # valid options: light or dark
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
@@ -40,39 +40,39 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "hero" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  # homepageImage = "/img/bg.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "blogs"
-  cardView = true
+  cardView = false
   cardViewScreenWidth = true
   layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
   showLikes = false
   showDateOnlyInArticle = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showAuthorBottom = true
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
-  showBreadcrumbs = true
-  showDraftLabel = true
+  showBreadcrumbs = false
+  showDraftLabel = false
   showEdit = true
   editURL = "https://github.com/SubhasmitaSw/SubhasmitaSw.github.io/content/blogs/"
   editAppendPath = true
-  seriesOpened = false
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = true
   showTableOfContents = true
   showRelatedContent = false
-  relatedContentLimit = 6
+  relatedContentLimit = 3
   showTaxonomies = true 
   showAuthorsBadges = true 
   showWordCount = false
@@ -80,8 +80,8 @@ smartTOCHideUnfocusedChildren = false
   showZenMode = true
 
 [list]
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = false
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
   layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
@@ -89,10 +89,10 @@ smartTOCHideUnfocusedChildren = false
   showViews = false
   showLikes = false
   showTableOfContents = true
-  showCards = true
+  showCards = false
   orderByWeight = false
   groupByYear = true
-  cardView = true
+  cardView = false
   cardViewScreenWidth = true
   constrainItemsWidth = true
 
@@ -102,7 +102,7 @@ smartTOCHideUnfocusedChildren = false
 [taxonomy]
   showTermCount = true
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false
@@ -111,7 +111,7 @@ smartTOCHideUnfocusedChildren = false
 
 [term]
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
   showLikes = false

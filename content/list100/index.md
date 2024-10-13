@@ -1,6 +1,8 @@
 ---
 title: List 100
 date: 2024-01-10
+layout: "simple"
+
 ---
 
 Before I kick the bucket, there's a whole bucket list of adventures I'm striving to experience! If you have any stellar suggestions, I'm all ears and ready to dive headfirst into the fun!
