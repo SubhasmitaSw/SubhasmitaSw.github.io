@@ -3,7 +3,6 @@ title: "Serverless Kubernetes Monitoring: Using Fission for Cluster Observabilit
 date: 2024-10-11
 summary: "This article explains how to use Fission, a serverless framework, along with Prometheus and Grafana for full observability, to provide effective, scalable Kubernetes cluster monitoring."
 tags: ["automation", "kubernetes", "observability"]
-comments: true
 ---
 
 Effective cluster monitoring is still a recurring problem in Kubernetes orchestration. This blog post examines one such solution: leveraging Fission, a Kubernetes-native Function-as-a-Service (FaaS) framework, to provide serverless architecture for Kubernetes cluster monitoring.
