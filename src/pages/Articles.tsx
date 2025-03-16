@@ -1,10 +1,10 @@
-
 import { useEffect, useState } from 'react';
 import { Layout } from '@/components/Layout';
 import { ArticleCard } from '@/components/ArticleCard';
 import { fetchArticles } from '@/lib/hashnode';
 import { Article } from '@/types';
 import { toast } from '@/components/ui/use-toast';
+import externalArticles from '../data/external-articles.json';
 
 const Articles = () => {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -54,10 +54,17 @@ const Articles = () => {
               <div key={index} className="rounded-md h-[320px] bg-gray-100 animate-pulse" />
             ))}
           </div>
-        ) : articles.length > 0 ? (
+        ) : articles.length > 0 || externalArticles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {articles.map((article) => (
               <ArticleCard key={article.id} article={article} />
+            ))}
+            {externalArticles.map((article) => (
+              <div key={article.title} className="bg-white rounded-md p-4">
+                <h2 className="text-xl font-bold mb-2">{article.title}</h2>
+                <p className="text-lg text-muted-foreground mb-4">{article.description}</p>
+                <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 border-b border-blue-200 hover:border-blue-500 transition-colors">Read more</a>
+              </div>
             ))}
           </div>
         ) : (
