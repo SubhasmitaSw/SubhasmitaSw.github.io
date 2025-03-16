@@ -1,0 +1,15 @@
+type Article {
+  id: ID!
+  title: String!
+  slug: String!
+  dateAdded: String!
+  coverImage: String!
+}
+
+type Query {
+  articles: [Article]
+}
+
+schema {
+  query: Query
+}
