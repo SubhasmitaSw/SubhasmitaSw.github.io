@@ -16,9 +16,9 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    /* Updated to a deep navy blue as primary */
-    --primary: 210 100% 35%;
-    --primary-foreground: 0 0% 98%;
+    /* Updated to red as primary */
+    --primary: 0 84.2% 60.2%;
+    --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222 47% 11%;

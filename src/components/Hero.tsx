@@ -18,7 +18,7 @@ export const Hero = () => {
               Software Developer
             </p>
             <p className="text-base text-foreground mt-4 max-w-[50ch]">
-              I’m Subhasmita Swain, R&D Engineer at Civo, driven by curiosity and cloud-native tech. From Kubernetes Release Shadow to Outreachy and CNCF internships, I’ve shaped open-source projects like Apache and Kubernetes. I build efficient, code-driven solutions for observability and cluster management, prioritizing sustainability and community impact. (For the latest CV details, check out my <a href="https://www.linkedin.com/in/subhasmita-swain/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 border-b border-blue-200 hover:border-blue-500 transition-colors">LinkedIn</a>!) 
+              I’m Subhasmita Swain, R&D Engineer at Civo, driven by curiosity and cloud-native tech. From Kubernetes Release Shadow to Outreachy and CNCF internships, I’ve shaped open-source projects like Apache and Kubernetes. I build efficient, code-driven solutions for observability and cluster management, prioritizing sustainability and community impact. (For the latest CV details, check out my <a href="https://www.linkedin.com/in/subhasmita-swain/" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700 border-b border-red-200 hover:border-red-500 transition-colors">LinkedIn</a>!) 
             </p>
             <div className="pt-4 flex items-center gap-3">
               <SocialIcons className="text-primary hover:text-accent transition-colors" />

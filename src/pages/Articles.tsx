@@ -63,7 +63,7 @@ const Articles = () => {
               <div key={article.title} className="bg-white rounded-md p-4">
                 <h2 className="text-xl font-bold mb-2">{article.title}</h2>
                 <p className="text-lg text-muted-foreground mb-4">{article.description}</p>
-                <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 border-b border-blue-200 hover:border-blue-500 transition-colors">Read more</a>
+                <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700 border-b border-red-200 hover:border-red-500 transition-colors">Read more</a>
               </div>
             ))}
           </div>
