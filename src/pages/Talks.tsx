@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import { getTalks } from '@/lib/mdx';
 import { Talk } from '@/types';
 
-const TalksPage = () => {
+const Talks = () => {
   const [talks, setTalks] = useState<Talk[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -108,4 +108,4 @@ const TalksPage = () => {
   );
 };
 
-export default TalksPage;
+export default Talks;
