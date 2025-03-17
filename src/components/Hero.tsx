@@ -1,6 +1,7 @@
 import { SocialIcons } from './SocialIcons';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
+import profileImage from '@/assets/profile2.jpg';
 
 export const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -31,7 +32,7 @@ export const Hero = () => {
             !imageLoaded && "lazy-image"
           )}>
             <img
-              src="src/assets/profile2.jpg"
+              src={profileImage}
               alt="Subhasmita Swain profile"
               className={cn(
                 "w-full h-full object-cover transition-opacity duration-500",
