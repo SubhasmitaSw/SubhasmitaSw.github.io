@@ -1,11 +1,10 @@
-
 import { SocialIcons } from './SocialIcons';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 
 export const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  
+
   return (
     <section className="container px-4 md:px-6 py-16 max-w-3xl mx-auto">
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
@@ -32,7 +31,7 @@ export const Hero = () => {
             !imageLoaded && "lazy-image"
           )}>
             <img
-              src="src/assets/profile2.jpg"
+              src="/assets/profile2.jpeg"
               alt="Subhasmita Swain profile"
               className={cn(
                 "w-full h-full object-cover transition-opacity duration-500",
