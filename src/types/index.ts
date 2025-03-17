@@ -11,9 +11,10 @@ export interface Article {
 export interface Talk {
   id: string;
   title: string;
-  description: string;
-  date: string;
   venue: string;
+  eventLink?: string;
+  date?: string;
+  description: string;
   slideUrl?: string;
   videoUrl?: string;
 }
