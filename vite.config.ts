@@ -2,16 +2,17 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import mdx from '@mdx-js/rollup';
 import path from "path";
-
 // Assuming componentTagger is a custom plugin, ensure it's properly imported or defined
 // For demonstration purposes, let's assume it's defined in a local file named componentTagger.ts
 import { componentTagger } from './componentTagger';
+
+const isNode = typeof process !== 'undefined' && process.versions && process.versions.node;
 
 const plugins = [
   mdx(),
   react(),
   // Conditionally include componentTagger based on the mode
-  process.env.NODE_ENV === 'development' ? componentTagger() : null,
+  isNode && process.env.NODE_ENV === 'development' ? componentTagger() : null,
 ].filter(Boolean);
 
 export default defineConfig({
