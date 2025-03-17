@@ -31,7 +31,7 @@ export const Hero = () => {
             !imageLoaded && "lazy-image"
           )}>
             <img
-              src="/assets/profile2.jpeg"
+              src="/src/assets/profile2.jpg"
               alt="Subhasmita Swain profile"
               className={cn(
                 "w-full h-full object-cover transition-opacity duration-500",
