@@ -131,7 +131,7 @@ export async function getTalks(): Promise<Talk[]> {
       {
         id: 'talk-6',
         title: 'Kubernetes security 101: How to keep your clusters safe and secure',
-        venue: '',
+        venue: 'OCD Huddles',
         eventLink: '',
         date: '',
         description: 'From deployment vulnerabilities to runtime threats, this talk will equip you with essential Kubernetes security strategies to protect your clusters from potential breaches while maintaining operational efficiency.',

@@ -84,12 +84,12 @@ const Index = () => {
         )}
         
         <div className="mt-10 text-center">
-          <a 
-            href="/articles" 
-            className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
-          >
-            View all articles
-          </a>
+<a 
+  href="#/articles" 
+  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
+>
+  View all articles
+</a>
         </div>
       </section>
     </Layout>
